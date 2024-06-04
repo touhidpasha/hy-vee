@@ -24,4 +24,16 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+table, th, td {
+  border: 1px solid white;
+}
+main{
+  row-gap: 1rem;
 }
